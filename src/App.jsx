@@ -1,13 +1,18 @@
 import './App.css'
+import Home              from "./home";
+import { Route, Routes } from "react-router-dom";
+import Vite              from "./vite";
 
 function App() {
 
-
-  return (
-    <div className="App">
-      <h2>vite的使用</h2>
-    </div>
-  )
+    return (
+        <div className="App">
+            <Routes>
+                <Route path="/" element={ <Home/> }/>
+                <Route path="/vite" element={ <Vite/> }/>
+            </Routes>
+        </div>
+    )
 }
 
 export default App
