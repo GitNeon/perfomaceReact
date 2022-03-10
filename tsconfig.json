@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ESNext",
+    "types": ["vite/client"], // vite类型定义暴露
     // 指定 ECMAScript 版本
     "lib": [
       "dom",

@@ -1,0 +1,100 @@
+{
+  "id": "3180096",
+  "name": "数据治理",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11432808",
+      "name": "数字资产",
+      "font_class": "sjzc",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "12770909",
+      "name": "标准管理",
+      "font_class": "bzgl",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "18438530",
+      "name": "质量管理",
+      "font_class": "sjzlgl",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "22428182",
+      "name": "数据管理",
+      "font_class": "sjgl",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "27045110",
+      "name": "标准数据服务",
+      "font_class": "sjfw",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "3868258",
+      "name": "场景管理",
+      "font_class": "cjzl",
+      "unicode": "eb61",
+      "unicode_decimal": 60257
+    },
+    {
+      "icon_id": "7058058",
+      "name": "链路追踪",
+      "font_class": "llgl",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "27804673",
+      "name": "基础治理",
+      "font_class": "jczl",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "27603180",
+      "name": "数据治理",
+      "font_class": "cxzl",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "7594865",
+      "name": "24gf-folder",
+      "font_class": "folder",
+      "unicode": "eac4",
+      "unicode_decimal": 60100
+    },
+    {
+      "icon_id": "7594875",
+      "name": "24gf-folderOpen",
+      "font_class": "folderOpen",
+      "unicode": "eac5",
+      "unicode_decimal": 60101
+    },
+    {
+      "icon_id": "2784",
+      "name": "数据魔方",
+      "font_class": "sjzl1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1247",
+      "name": "设置",
+      "font_class": "setting",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

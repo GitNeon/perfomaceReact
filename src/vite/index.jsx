@@ -4,7 +4,8 @@
  * @Description: file content
  */
 import { getImgUrl } from "../util/CommonUtil";
-import './index.css'
+import './index.css';
+import '../assets/iconfont/icon1/iconfont.css';
 
 export default () => {
 
@@ -19,8 +20,9 @@ export default () => {
                 <h3>关于引入图片的处理</h3>
                 <p>方式一：利用import.meta.url实现：</p>
                 <img src={getImgUrl('test.png')} alt="."/>
-                <p>方式二： 在css中引入</p>
+                <p>方式二： 在css中引入,通过css引入不要加../,你的CSS应该这么写：background-image: url('/src/assets/img/test.png');</p>
                 <div className="bg"/>
+                <p>引入iconfont图标文件: <i className={`iconfont icon-bzgl`}/></p>
             </div>
         </>
     )
