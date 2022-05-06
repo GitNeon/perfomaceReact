@@ -9,7 +9,7 @@ import worker_script from './worker-code';
 
 export default () => {
 
-    const worker = new Worker(worker_script);
+    const worker = new Worker(worker_script, { name: 'myWorker' });
 
     useEffect(() => {
 

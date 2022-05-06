@@ -14,6 +14,8 @@ const worker_code = () => {
         let result = `从主线程接收到的数据 ${e.data}`;
         self.postMessage(result)
     }
+
+    console.log('self',self);
 }
 
 let code = worker_code.toString();
@@ -22,5 +24,7 @@ console.log(code);
 
 const blob = new Blob([code],{ type: 'application/javascript' });
 const worker_script = URL.createObjectURL(blob);
+
+
 
 export default  worker_script;
