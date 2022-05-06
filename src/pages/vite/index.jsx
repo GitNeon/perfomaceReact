@@ -3,9 +3,9 @@
  * @Date: 2022年03月08日 10:40
  * @Description: file content
  */
-import { getImgUrl } from "../util/CommonUtil";
+import { getImgUrl } from "../../util/CommonUtil";
 import './index.css';
-import '../assets/iconfont/icon1/iconfont.css';
+import '../../assets/iconfont/icon1/iconfont.css';
 
 export default () => {
 

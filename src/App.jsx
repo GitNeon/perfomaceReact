@@ -1,7 +1,8 @@
 import './App.css'
 import Home              from "./home";
 import { Route, Routes } from "react-router-dom";
-import Vite              from "./vite";
+import Vite              from "./pages/vite";
+import WebWorker         from "./pages/webWorker";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
             <Routes>
                 <Route path="/" element={ <Home/> }/>
                 <Route path="/vite" element={ <Vite/> }/>
+                <Route path="/webWorker" element={ <WebWorker/> }/>
             </Routes>
         </div>
     )
