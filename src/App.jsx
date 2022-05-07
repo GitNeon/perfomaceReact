@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Vite              from "./pages/vite";
 import WebWorker         from "./pages/webWorker";
 import GenerateFibonacci from "./pages/webWorkerHook";
+import SharedWorker      from "./pages/sharedWorker";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/vite" element={ <Vite/> }/>
                 <Route path="/webWorker" element={ <WebWorker/> }/>
                 <Route path="/webWorkerHook" element={ <GenerateFibonacci/> }/>
+                <Route path="/sharedWorker" element={<SharedWorker/>}/>
             </Routes>
         </div>
     )

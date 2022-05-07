@@ -20,7 +20,6 @@ const worker_code = () => {
 
 let code = worker_code.toString();
 code = code.substring(code.indexOf('{') + 1, code.lastIndexOf('}'));
-console.log(code);
 
 const blob = new Blob([code],{ type: 'application/javascript' });
 const worker_script = URL.createObjectURL(blob);

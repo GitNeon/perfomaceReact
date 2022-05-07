@@ -10,6 +10,7 @@ export default () => {
                     <li><Link to="/vite">vite的使用</Link></li>
                     <li><Link to="/webWorker">web worker的使用</Link></li>
                     <li><Link to="/webWorkerHook">webWorkerHook计算斐波那契数列</Link></li>
+                    <li><Link to="/sharedWorker">Shared Worker的使用</Link></li>
                 </ul>
             </nav>
         </div>
